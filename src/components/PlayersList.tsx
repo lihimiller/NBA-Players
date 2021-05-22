@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     flexDirection:'row',
     justifyContent:'space-around', 
     width:'100vw',
-    height:'85vh'
+    height:'85vh',
   },
   secondaryDiv:{
     display:'flex', 

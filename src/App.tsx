@@ -21,7 +21,7 @@ const App: React.FC = () => {
     }
 
   return (
-    <div >
+    <div style={{margin:0, padding:0}} >
       <div style= {{display:'flex', flexDirection:'row', backgroundColor:'#081339'}}>
         <img src={logo} alt="Logo" style={{width:'13vw', height: '15vh'}} />
         <Search {...props}/>
